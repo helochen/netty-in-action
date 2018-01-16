@@ -1,3 +1,3 @@
 # netty-in-action
-netty in action demo
+netty 权威指南 demo
 tag 2018-1-16 timeserver简单的例子
