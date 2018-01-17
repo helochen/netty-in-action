@@ -1,0 +1,9 @@
+package com.share.proto.chenmi;
+
+message ChenmiInfoRequest{
+}
+
+message ChenmiInfoResponse{ //120010
+	optional int32 isCM = 1;
+	optional int64 onlineTime =2;
+}

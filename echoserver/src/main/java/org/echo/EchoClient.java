@@ -33,7 +33,8 @@ public class EchoClient {
                         protected void initChannel(SocketChannel socketChannel) throws Exception {
                             ByteBuf delimiter = Unpooled.copiedBuffer("$_".getBytes());
 
-                            socketChannel.pipeline().addLast(new DelimiterBasedFrameDecoder(1024, delimiter))
+                            socketChannel.pipeline()
+                                    .addLast(new DelimiterBasedFrameDecoder(1024, delimiter))
                                     .addLast(new StringDecoder())
                                     .addLast(new EchoClientHandler());
                         }
