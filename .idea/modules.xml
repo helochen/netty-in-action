@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/echoserver/echoserver.iml" filepath="$PROJECT_DIR$/echoserver/echoserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/googleproto/googleproto.iml" filepath="$PROJECT_DIR$/googleproto/googleproto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/netty-in-action.iml" filepath="$PROJECT_DIR$/.idea/netty-in-action.iml" />
+      <module fileurl="file://$PROJECT_DIR$/timeserver/timeserver.iml" filepath="$PROJECT_DIR$/timeserver/timeserver.iml" />
+    </modules>
+  </component>
+</project>
