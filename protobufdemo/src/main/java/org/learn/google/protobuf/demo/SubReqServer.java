@@ -32,7 +32,8 @@ public class SubReqServer {
                         @Override
                         protected void initChannel(SocketChannel socketChannel) throws Exception {
 
-                            socketChannel.pipeline().addLast(new ProtobufVarint32FrameDecoder())
+                            socketChannel.pipeline()
+                                    .addLast(new ProtobufVarint32FrameDecoder())
                                     .addLast(new ProtobufDecoder(SubscribeReq.SubscribeRequest.getDefaultInstance()))
                                     .addLast(new ProtobufVarint32LengthFieldPrepender())
                                     .addLast(new ProtobufEncoder())
