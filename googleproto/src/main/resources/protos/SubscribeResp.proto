@@ -1,0 +1,10 @@
+package sz.learn.protobuf;
+
+//option java_package = "org.echo.pojo.proto";
+//option java_outer_classname = "SubscribeResp";
+
+message SubscribeResponse {
+    required int32 subReqID = 1;
+    required int32 respCode = 2;
+    required string desc = 3;
+}
